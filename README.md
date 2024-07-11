@@ -1,4 +1,4 @@
-Batch scan from a list file of IP addresses with ICMP
+Batch scan from a list file of IP addresses with ICMP.
 
 usage:
 
