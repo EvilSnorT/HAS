@@ -1,7 +1,9 @@
 <img width="543" alt="image" src="https://github.com/EvilSnorT/HAS/assets/80547597/fa89acc8-e800-4ffc-9fa3-254088225672">
 
 Batch scan from a list file of IP addresses with ICMP.
-IP地址活性检测
+
+IP地址批量活性检测工具
 
 usage:
+
 python3 HAS.py -i/--input <ip.txt>
