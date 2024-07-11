@@ -1,7 +1,5 @@
+Batch scan from a list file of IP addresses with ICMP
+
 usage:
 
-python3 HAS.py -i ip.txt
-
--i --input
-
--h --help
+python3 HAS.py -i/--input <ip.txt>
