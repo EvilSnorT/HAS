@@ -2,7 +2,7 @@
 
 Batch scan from a list file of IP addresses with ICMP.
 
-IP地址批量活性检测工具
+IP批量测活简易小脚本
 
 usage:
 
