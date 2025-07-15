@@ -1,9 +1,18 @@
-<img width="543" alt="image" src="https://github.com/EvilSnorT/HAS/assets/80547597/fa89acc8-e800-4ffc-9fa3-254088225672">
+<img width="782" height="503" alt="image" src="https://github.com/user-attachments/assets/f0f1e525-7b8a-48c7-ae01-0f0574e03727" />
 
-Batch scan from a list file of IP addresses with ICMP.
+The TCP-mode and SYN-mode(need sudo) were added.
 
-IP批量测活简易小脚本
+# Ping-mode (default)
+python3 HAS.py -i targets.txt
 
-usage:
+# TCP-mode
+python3 HAS.py -i targets.txt -m tcp -p 80,443,8000-9000
 
-python3 HAS.py -i/--input <ip.txt>
+# SYN-mode (need root prive)
+sudo python3 HAS.py -i targets.txt -m syn -p 22,80,443
+
+input file format (targets.txt):
+192.168.1.1
+example.com
+10.0.0.5:8080
+example.com:443
